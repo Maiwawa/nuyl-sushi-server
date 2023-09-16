@@ -11,6 +11,3 @@ def getData(filename):
     perform_action_recognition(config_path,checkpoint_path,img_path,label_path,out_filename)
 
     return 'import success'
-
-if __name__ == '__main__':
-    getData('demo.mp4')
